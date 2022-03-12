@@ -37,6 +37,7 @@
 ### websocket
 - ip와 port(80)으로 통신
 - upgrade 헤더를 통해 웹 서버에 요청
+- 양방향 통신 지원
 
 
 
