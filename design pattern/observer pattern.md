@@ -1,29 +1,23 @@
 # Observer Pattern
 
-옵저버 : 객체의 상태 변화를 관찰하는 관찰자
-옵저버 패턴 : 옵저버들의 목록을 객체에 등록하여 상태 변화가 있을 때마다 메서드 등을 통해 객체가 직접 목록의 각 옵저버에게 통지하도록 하는 디자인 패턴, 주로 분산 이벤트 핸들링을 구현하는데 사용됨.
+- 옵저버 : 객체의 상태 변화를 관찰하는 관찰자
 
-어떤 객체의 상태가 변할 때 그와 연관된 객체들에게 알림을 보내는 디자인 패턴
+- 옵저버 패턴 : 옵저버들의 목록을 객체에 등록하여 상태 변화가 있을 때마다 메서드 등을 통해 객체가 직접 목록의 각 옵저버에게 통지하도록 하는 디자인 패턴, 주로 분산 이벤트 핸들링을 구현하는데 사용됨.
 
-옵저버 패턴(Observer Pattern)에서는 한 객체의 상태가 바뀌면 그 객체에 의존하는 다른 객체들한테 연락이 가고, 자동으로 내용이 갱신되는 방식으로 일대다(one-to-many) 의존성을 정의한다.
+- 어떤 객체의 상태가 변할 때 그와 연관된 객체들에게 알림을 보내는 디자인 패턴
 
-옵저버 패턴은 주제와 옵저버가 느슨하게 결합되어있는 객체 디자인 제공
+- 옵저버 패턴(Observer Pattern)에서는 한 객체의 상태가 바뀌면 그 객체에 의존하는 다른 객체들한테 연락이 가고, 자동으로 내용이 갱신되는 방식으로 일대다(one-to-many) 의존성을 정의한다.
 
-느슨한 결합의 장점은 다음과 같습니다.
-
-1. 옵저버를 언제든 새로 추가, 제거할 수 있다.
-2. 새로운 형식의 옵저버라 할 지라도 주제를 전혀 변경할 필요가 없다.
-3. 주제와 옵저버는 서로 독립적으로 재사용 할 수 있다.
-4. 주제나 옵저버가 바뀌더라도 서로에게 영향을 미치지 않는다.
+- 옵저버 패턴은 주제와 옵저버가 느슨하게 결합되어있는 객체 디자인 제공
 
 
 ### JAVA 에서의 Observer Pattern
 
 **내부 메서드는 링크 통해 확인**
 
-Observable class : https://docs.oracle.com/javase/8/docs/api/index.html?java/util/Observable.html
+- Observable class : https://docs.oracle.com/javase/8/docs/api/index.html?java/util/Observable.html
 
-Observer interface : https://docs.oracle.com/javase/8/docs/api/index.html?java/util/Observer.html
+- Observer interface : https://docs.oracle.com/javase/8/docs/api/index.html?java/util/Observer.html
 
 이름만 보고 당연히 Observable이 인터페이스인 줄 알았다..
 Observer가 인터페이스고 Observable은 클래스다.
