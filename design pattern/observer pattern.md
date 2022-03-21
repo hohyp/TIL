@@ -22,7 +22,7 @@
 이름만 보고 당연히 Observable이 인터페이스인 줄 알았다..
 Observer가 인터페이스고 Observable은 클래스다.
 
-[블로그 (출처)](https://velog.io/@hanna2100/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4-2.-%EC%98%B5%EC%A0%80%EB%B2%84-%ED%8C%A8%ED%84%B4-%EA%B0%9C%EB%85%90%EA%B3%BC-%EC%98%88%EC%A0%9C-observer-pattern) 에서 말하는 java 내장 옵저버의 단점
+### [블로그(출처)](https://velog.io/@hanna2100/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4-2.-%EC%98%B5%EC%A0%80%EB%B2%84-%ED%8C%A8%ED%84%B4-%EA%B0%9C%EB%85%90%EA%B3%BC-%EC%98%88%EC%A0%9C-observer-pattern) 에서 말하는 java 내장 옵저버의 단점
 
 
 1. Observable은 클래스이다
