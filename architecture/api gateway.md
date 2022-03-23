@@ -1,4 +1,4 @@
-# API Gateway (1차)
+# API Gateway (1차, 정리 X)
 
 ### 개념과 역할
 - 개념
